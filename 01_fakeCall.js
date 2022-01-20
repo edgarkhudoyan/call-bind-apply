@@ -12,5 +12,5 @@ Function.prototype.fakeCall = function fakeCall(arg, ...rest) {
   return arg._function(...rest);
 };
 
-foo.call(user, hello1, hello2, hello3);
-foo.fakeCall(user, world1, world2, world3);
+foo.call(user, 1, 2, 3);
+foo.fakeCall(user, 5, 6, 7);
